@@ -1,4 +1,3 @@
-import gunicorn
 import json
 import pickle
 import joblib
