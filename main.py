@@ -3,6 +3,7 @@ import pickle
 import joblib
 import numpy as np
 import pandas as pd
+import gunicorn
 from flask import Flask,request,app,jsonify,url_for,render_template
 
 app = Flask(__name__)
